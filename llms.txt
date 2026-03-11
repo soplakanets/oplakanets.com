@@ -1,0 +1,19 @@
+# Serhiy Oplakanets
+
+> Personal website of Serhiy Oplakanets — engineer, co-founder of Rebbix, competitive angler, husband and father of two.
+
+## About
+
+Serhiy Oplakanets is a software engineer with 20+ years of experience. He co-founded Rebbix in 2012, a company that builds dedicated product engineering teams for startups and enterprises. He also co-founded Rove.me, a travel discovery platform. Outside of work he is a husband and a father of two, and competes in sports fishing tournaments.
+
+## Links
+
+- Website: https://oplakanets.com
+- LinkedIn: https://linkedin.com/in/soplakanets
+- Rebbix: https://rebbix.com
+- Rove.me: https://rove.me
+
+## Contact
+
+- Email: serhiy@oplakanets.com
+- LinkedIn: https://linkedin.com/in/soplakanets
