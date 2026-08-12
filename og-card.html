@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+  Source for og.jpg (the 1200x630 link-preview card).
+  Regenerate after editing:
+
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --disable-gpu \
+    --screenshot=og-2x.png --window-size=1200,630 --force-device-scale-factor=2 \
+    --hide-scrollbars "file://$PWD/og-card.html"
+  sips -z 630 1200 og-2x.png -s format jpeg -s formatOptions 85 --out og.jpg && rm og-2x.png
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 630px;
+    background: #16181d;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
+    gap: 70px;
+  }
+  .photo {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 6px rgba(122, 181, 245, 0.35);
+  }
+  .text { display: flex; flex-direction: column; gap: 22px; }
+  h1 {
+    color: #f2f2f4;
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .tagline {
+    color: #a9adb6;
+    font-size: 32px;
+    line-height: 1.4;
+    max-width: 620px;
+  }
+  .url {
+    color: #7ab5f5;
+    font-size: 28px;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+  <img class="photo" src="photo.jpg">
+  <div class="text">
+    <h1>Serhiy Oplakanets</h1>
+    <div class="tagline">Startup founder &amp; entrepreneur.<br>Co-founder of Rebbix, Rove.me, BaseB, and others. Engineer at heart.</div>
+    <div class="url">oplakanets.com</div>
+  </div>
+</body>
+</html>
